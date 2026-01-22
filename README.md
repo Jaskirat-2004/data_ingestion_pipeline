@@ -1,9 +1,3 @@
-
----
-
-# **README.md – FastAPI Data Pipeline Project**
-
-```markdown
 # FastAPI Data Pipeline 🚀
 
 ## Overview
@@ -22,8 +16,7 @@ Key features:
 
 ## 🗂 Project Structure
 
-```
-
+````text
 fastapi-basics/
 ├── app/                 # FastAPI application entry point
 │   └── main.py
@@ -40,35 +33,37 @@ fastapi-basics/
 │   └── result.html
 ├── requirements.txt     # Python dependencies
 └── .gitignore           # Git ignore rules
-
-````
+`````
 
 ---
 
 ## ⚡ Features
 
-- **Data Ingestion:** Handles multiple Excel/CSV sources seamlessly
-- **Database Integration:** Stores processed data efficiently in PostgreSQL
-- **API Endpoints:** Easily expose processed data using FastAPI
-- **Modularity:** Clear separation between app logic, DB, and services
-- **Version Control:** Secure Git workflow using SSH
+* **Data Ingestion:** Handles multiple Excel/CSV sources seamlessly
+* **Database Integration:** Stores processed data efficiently in PostgreSQL
+* **API Endpoints:** Easily expose processed data using FastAPI
+* **Modularity:** Clear separation between app logic, DB, and services
+* **Version Control:** Secure Git workflow using SSH
 
 ---
 
 ## 💻 Installation & Setup
 
 1. **Clone the repository**
+
 ```bash
 git clone git@github.com:Jaskirat-2004/fastapi-basics.git
 cd fastapi-basics
-````
+```
 
 2. **Create a virtual environment**
 
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate # Mac/Linux
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
 ```
 
 3. **Install dependencies**
@@ -114,4 +109,3 @@ uvicorn app.main:app --reload
 **Jaskirat Singh** – Final Year Student & Aspiring Data Engineer/ML Developer
 [LinkedIn](https://www.linkedin.com/in/jaskirat-link) | [GitHub](https://github.com/Jaskirat-2004)
 
-```
