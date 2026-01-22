@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPLOAD FORM</title>
+    <link rel="stylesheet" href="\static\style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>UPLOAD PORTAL</h1>
+        <p class="subtitle">Upload shift adherence file ('csv' or 'xlsx' format only)</p>
+
+        <form action="/uploaded" method="post" enctype="multipart/form-data">
+
+            <!-- <div class="form-group">
+                <label for="username">USERNAME : </label>
+                <input type="text" id="username" name="username" required><br>
+            </div> -->
+
+            <div class="form-group">
+                <label for="file">SELECT FILE : </label>
+                <input type="file" id="file" name="file" required>
+            </div>
+
+            <button type="submit">UPLOAD</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
